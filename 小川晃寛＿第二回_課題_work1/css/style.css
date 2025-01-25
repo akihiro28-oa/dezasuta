@@ -34,19 +34,24 @@
     list-style: none;
     color: #444;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.menu {
+.menu li {
     border-right: 1px solid#444;
     padding: 3px 20px;
 }
+
+.menu li :last-child{
+    border-bottom: 0;
+}
+
 
 
 
 .header{
     display: flex;
+    justify-content: space-between;
     max-width: 960px;
     margin: 50px auto;
 }
@@ -66,8 +71,9 @@
         border-right: none;
     }
 
-    .menu li:last-child{
+    .menu li :last-child{
         border-bottom: 0;
+
     }
 
     

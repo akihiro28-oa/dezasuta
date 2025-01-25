@@ -31,25 +31,21 @@
 }
 
 .header{
-    list-style: none;
     color: #444;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    max-width: 960px;
+    margin: 50px auto;
 }
 
 .menu{
     list-style: none;
     color: #444;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.menu li :not(:last-child){
-    border-right: 1px solid#444;
-    padding: 3px 20px;
-}
+
 
 @media screen and (max-width: 767px){
     
