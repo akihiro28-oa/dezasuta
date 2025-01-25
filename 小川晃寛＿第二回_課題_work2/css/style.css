@@ -46,12 +46,12 @@
     align-items: center;
 }
 
-.menu li{
+.menu li :not(:last-child){
     border-right: 1px solid#444;
     padding: 3px 20px;
 }
 
-@media (min-width: 767px){
+@media screen and (max-width: 767px){
     
     .header{
         display: flex;

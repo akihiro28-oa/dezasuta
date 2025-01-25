@@ -38,25 +38,19 @@
     align-items: center;
 }
 
-.menu {
+.menu li{
     border-right: 1px solid#444;
     padding: 3px 20px;
 }
 
-
-
-.header{
-    display: flex;
-    max-width: 960px;
-    margin: 50px auto;
-}
-
-@media screen and (max-width: 767px){
+@media screen{
     .header{
+        display: flex;
         flex-direction: column;
         width: 90px;
     }
     .menu{
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
@@ -64,10 +58,6 @@
     .menu li {
         border-bottom: 1px solid#444;
         border-right: none;
-    }
-
-    .menu li:last-child{
-        border-bottom: 0;
     }
 
     
