@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.background{
+    max-width: 960px;
+    background-color: #feeeee;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: #398072;
+    display: flex;
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo h2{
+    color: #398072;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-left: 10px solid #398072;
+    padding: auto;
+}
+
+.photo{
+    width: 30%;
+    background-color: white;
+}

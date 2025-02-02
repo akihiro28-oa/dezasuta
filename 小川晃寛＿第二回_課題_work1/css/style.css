@@ -42,8 +42,8 @@
     padding: 3px 20px;
 }
 
-.menu li :last-child{
-    border-bottom: 0;
+.menu li:last-child{
+    border-right: 0;
 }
 
 
@@ -71,8 +71,8 @@
         border-right: none;
     }
 
-    .menu li :last-child{
-        border-bottom: 0;
+    .menu li:last-child{
+        border-right: 0;
 
     }
 
