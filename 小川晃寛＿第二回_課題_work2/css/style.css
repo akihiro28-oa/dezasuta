@@ -32,19 +32,29 @@
 
 .header{
     color: #444;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between;*/
     max-width: 960px;
     margin: 50px auto;
+    align-items: flex-start;
 }
 
-.menu{
+.menu {
     list-style: none;
     color: #444;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
+    align-items: flex-start;
+    
 }
 
+.menu li{
+    border-bottom: 1px solid #444;
+}
+
+.menu li:last-child{
+    border-bottom: 0;
+}
 
 
 @media screen and (max-width: 767px){
@@ -57,12 +67,10 @@
     .menu{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
         padding: 0px;
     }
     .menu li {
         border-bottom: 1px solid#444;
-        border-right: none;
     }
 
 }
