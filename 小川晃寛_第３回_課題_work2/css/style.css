@@ -16,6 +16,7 @@ h1{
 .service {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .photo h2{
@@ -37,9 +38,14 @@ h1{
     .service {display: block;
     }
 
-    .service s.photo{
+    .service .photo{
         width: 100%;
         margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .photo img{
+        width: 100%;
     }
 
 }
