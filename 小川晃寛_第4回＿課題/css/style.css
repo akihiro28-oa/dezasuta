@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+body {background-color: #e8d9bf;}
+
+header{
+    position: relative;
+}
+
+.header_wrap{
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7% 0 3%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header_logo{
+    width: 226px;
+}
+
+.pc_nav ul{
+    display: flex;
+    gap: 54px;
+}
+
+.pc_nav ul li {
+    width: 106px;
+    text-align: center;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+}
+
+.about_us {
+    width: 1000px;
+}
+
+.class {
+    width: 1000px;
+}
+
+.copy_1 {
+    font-size: 32PX;
+    text-align: center;
+    margin: 104px 0 47px 0;
+}
+
+.copy_2{
+    font-size: 82px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.copy_3{
+    font-size: 23px;
+    line-height: 1.65;
+    padding: 20px 0 90px 0;
+    text-align: center;
+}
+
+.about_us{
+    display: flex;
+    text-align: center;
+}
+
+.h2{
+    font-size: 80px;
+    text-align: center;
+}
+
+.title_1{
+    font-size: 44px;
+    line-height: 0.72;
+    text-align: center;
+    padding-right:86px 0 457px 0;
+}
+
+.text_1{
+    font-size: 16px;
+    line-height: 0.61;
+    text-align: center;
+}
+
+.menu {
+    font-size: 32PX;
+    text-align: center;
+    margin: 104px 0 47px 0;
+}
+
+.menu_box {
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+}
+
+.menu_category{
+    display: grid;
+    padding: 50px;
+}
+
+.category {
+    font-size: 38px;
+    text-align: left;
+    line-height: 1.72;
+    color: red;
+}
+
+.text_2{
+    font-size: 17px;
+    text-align: left;
+    line-height: 0.68;
+    width: 300px;
+}
